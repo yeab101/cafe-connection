@@ -39,7 +39,7 @@ function success(position) {
         map.removeLayer(circle);
     }
 
-    fetch('http://localhost:3000/api/location')
+    fetch('https://cafe-connection.onrender.com/api/location')
         .then(response => response.json())
         .then(result => {
             // console.log(result)
